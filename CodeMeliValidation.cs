@@ -9,7 +9,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace ShahkarClass
+namespace NationalCodeValidationClass
 {
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
     public class NationalCodeValidation : ValidationAttribute
